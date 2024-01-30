@@ -1,24 +1,24 @@
 import React from 'react';
-import { CheckCircle } from 'lucide-react';
-import { CircleDashed } from 'lucide-react';
+import { LuCircleDashed } from "react-icons/lu";
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 const timelineData = [
   {
     title: 'Scientific Publications',
-    icon: <CircleDashed />,
+    icon: <LuCircleDashed size={30}/>,
     status: 'Latest',
     releaseDate: 'February 15th, 2022',
     description: 'Scientific Publication(s) means documents, posters, manuscripts, abstracts or the like, of a scientific or medical nature, which include any data, results of any clinical trial or any other information regarding or related to the Licensed Product',
   },
   {
     title: 'Emperical Probelm Analysis',
-    icon: <CheckCircle />,
+    icon: <IoMdCheckmarkCircleOutline size={30}/>,
     releaseDate: 'January 10th, 2022',
     description: 'Empirical analysis is an evidence-based approach to the study and interpretation of information. Empirical evidence is information that can be gathered from experience or by the five senses. In a scientific context, it is called empirical research.',
   },
   {
     title: 'Theoretical Problem Analysis',
-    icon: <CheckCircle />,
+    icon: <IoMdCheckmarkCircleOutline size={30}/>,
     releaseDate: 'January 5th, 2022',
     description: 'It specifies related terms in detail, e.g. the ability to perceive the problem, the perceptibility of the problem, the willingness to solve the problem, the awareness of existence of the problem or strategies of problem solving.',
   },
