@@ -1,1 +1,1 @@
-chemsite is a chemistry oriented website designed for chemistry professor.
+chemsite is a chemistry oriented website designed for chemisty professor.
